@@ -32,7 +32,7 @@ export class TextMessageBoxSelectComponent {
   public fb = inject(FormBuilder);
   public form = this.fb.group({
     prompt: ['', Validators.required],
-    selectedOption: ['', Validators.required ]
+    selectedOption: ['', Validators.required]
   });
 
   handleSubmit() {
